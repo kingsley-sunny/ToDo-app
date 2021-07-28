@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="styles.css">
+</head>
+<body class="h-screen bg-gray-100">
+
+
+      <section class="w-full bg-gradient-to-b from-blue-400 to-blue-900 py-5 px-4 sm:px-8 md:px-12 lg:px-20 xl:px-36">
+
+            <nav class="max-w-maxa mx-auto">
+        
+              <div class="flex justify-between items-center text-white">
+                <div>
+                  LetsDo
+                </div>
+        
+                <!-- MENU FOR ONLY SM SCREENS -->
+                <div class="hidden sm:flex justify-between items-center lg:hidden">
+                  <a href="login.html" class="block  px-4 py-1 mr-3 text-base text-white transition duration-500 rounded-full bg-indigo-800 hover:bg-gray-900">Log in</a>
+                  <a href="register.html" class="block  px-4 py-1 text-base text-white transition duration-500 rounded-full bg-green-800 hover:bg-green-900">Sign up</a>
+            
+                </div>
+                
+                <!-- THIS IS THE MENU BURGER FOR SMALL DEVICES ONLY -->
+                <div class="lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" viewBox="0 0 20 20" fill="currentColor " id="burger">
+                    <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
+                  </svg>
+        
+                </div>
+        
+        
+                <!-- TTHE MENU ITEMS FOR LARGE SCREENS -->
+                <div class="hidden lg:flex justify-end items-center space-x-4">
+                  <a href="" class="block  px-4 text-base text-white transition duration-500 hover:text-gray-800">Home</a>
+                  <a href="login.html" class="block  px-4 text-base text-white transition duration-500 hover:text-gray-800">Create Todo</a>
+                  <a href="login.html" class="block  px-4 py-1 text-base text-white transition duration-500 rounded-full bg-indigo-800 hover:bg-gray-900">Log in</a>
+                  <a href="register.html" class="block  px-4 py-1 text-base text-white transition duration-500 rounded-full bg-green-800 hover:bg-green-900">Sign up</a>
+            
+                </div>
+        
+        
+        
+        
+        
+        
+              </div>
+        
+              
+        
+              <div>
+        
+              </div>
+        
+            </nav>
+        
+          </section>
+        
+        
+          <!-- THE MENU ITEM FOR SMALL SCREENS -->
+        
+          <div class="lg:hidden">
+        
+            <div class="hidden" id="menu">
+              <a href="" class="block text-gray-600 font-semibold border px-4 sm:px-8 md:px-12 py-3 bg-blue-200 transition duration-500 hover:bg-blue-300">Home</a>
+              <a href="login.html" class="block text-gray-600 font-semibold border px-4 sm:px-8 md:px-12 py-3 bg-blue-200 transition duration-500 hover:bg-blue-300">Create Todo</a>
+              <a href="login.html" class="block text-gray-600 font-semibold border px-4 sm:px-8 md:px-12 py-3 bg-blue-200 transition duration-500 hover:bg-blue-300">Log in</a>
+              <a href="register.html" class="block text-gray-600 font-semibold border px-4 sm:px-8 md:px-12 py-3 bg-blue-200 transition duration-500 hover:bg-blue-300">Sign up</a>
+        
+            </div>
+          
+          </div>
+        
+      
+
+      <section class= "w-full h-full bg-gradient-to-b from-blue-50 via-blue-100 to-blue-50 pt-14 pb-10 px-4 sm:px-12 md:px-16 lg:px-20 xl:px-36 z-0 sm:flex justify-center items-center rounded-br-full">
+
+
+            <section class="max-w-xl mx-auto  bg-white">
+        
+              <div class="flex justify-between items-center px-5">
+                <div class="text-blue-800 font-black">
+                  LetsDo
+                </div>
+        
+                <div class="">
+                  <button class="py-1 px-4 rounded-full bg-blue-500 text-white mt-6 hover:bg-blue-600">
+                    <a href="register.html">Sign up</a>
+                  </button>
+                </div>
+        
+              </div>
+        
+        
+              <div>
+        
+                <h1 class="text-gray-600 text-xl sm:text-2xl mb-2 font-serif z-10 font-semibold text-center capitalize">
+                      login to your account
+                  </h1>
+        
+                <form action="" method="post" class="py-5 px-5  flex-col justify-center items-center z-10 relative ">
+        
+                  
+        
+                  <input type="email" placeholder="Email" name="username" id="" required class="w-full py-3 px-4 bg-white border mt-4">
+        
+                  <input type="password" placeholder="Password" name="username" id="" required class="w-full py-3 px-4 bg-white border mt-4 ">
+        
+                  <input type="submit" class="w-32 py-3 px-4 mt-12 sm:mx-auto block bg-blue-600 shadow-xl rounded-lg text-gray-200 font-bold hover:bg-blue-700">
+        
+                  <a href="" class="text-xs sm:text-sm text-blue-600 absolute bottom-20 right-6 block mt-6">forgot password</a>
+        
+                </form>
+                
+        
+              </div>
+              
+            </section>
+        
+          </section>
+
+
+
+      <script src="index.js"></script>
+
+</body>
+</html>
