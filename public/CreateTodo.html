@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100">
+    
+    <section class="w-full bg-gradient-to-b from-blue-400 to-blue-900 py-5 px-4 sm:px-8 md:px-12 lg:px-20 xl:px-36">
+
+        <nav class="max-w-maxa mx-auto">
+    
+          <div class="flex justify-between items-center text-white">
+            <div>
+              LetsDo
+            </div>
+    
+            <!-- MENU FOR ONLY SM SCREENS -->
+            <div class="hidden sm:hiddenex justify-between items-center lg:hidden">
+              <a href="login.html" class="block  px-4 py-1 mr-3 text-base text-white transition duration-500 rounded-full bg-indigo-800 hover:bg-gray-900">Log in</a>
+              <a href="register.html" class="block  px-4 py-1 text-base text-white transition duration-500 rounded-full bg-green-800 hover:bg-green-900">Sign up</a>
+        
+            </div>
+            
+            <!-- THIS IS THE MENU BURGER FOR SMALL DEVICES ONLY -->
+            <div class="lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" viewBox="0 0 20 20" fill="currentColor " id="insideBurger">
+                <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
+              </svg>
+    
+            </div>
+    
+    
+            <!-- TTHE MENU ITEMS FOR LARGE SCREENS -->
+            <div class="hidden lg:flex justify-end items-center space-x-4">
+              <a href="CreateTodo.html" class="block  px-4 text-base text-white transition duration-500 hover:text-gray-800">Create Todo</a>
+              <a href="login.html" class="block  px-4 text-base text-white transition duration-500 hover:text-gray-800">View Todo</a>
+              <a href="login.html" class="block  px-4 text-base text-white transition duration-500 hover:text-gray-800">Dashboard</a>
+              <a href="login.html" class="block  px-4 py-1 text-base text-white transition duration-500 rounded-full bg-indigo-800 hover:bg-gray-900">change Password</a>
+              <a href="inside.html" class="block  px-4 py-1 text-base text-white transition duration-500 rounded-full bg-red-800 hover:bg-red-900">Log Out</a>
+        
+            </div>
+    
+    
+    
+    
+    
+    
+          </div>
+    
+          
+    
+          <div>
+    
+          </div>
+    
+        </nav>
+    
+      </section>
+    
+    
+      <!-- THE MENU ITEM FOR SMALL SCREENS -->
+    
+      <div class="lg:hidden">
+    
+        <div class="hidden" id="insideMenu">
+          <a href="" class="block text-gray-600 font-semibold border px-4 sm:px-8 md:px-12 py-3 bg-blue-200 transition duration-500 hover:bg-blue-300">CreateTodo</a>
+          <a href="login.html" class="block text-gray-600 font-semibold border px-4 sm:px-8 md:px-12 py-3 bg-blue-200 transition duration-500 hover:bg-blue-300">Vieiw Todo</a>
+          <a href="login.html" class="block text-gray-600 font-semibold border px-4 sm:px-8 md:px-12 py-3 bg-blue-200 transition duration-500 hover:bg-blue-300">Dashboard</a>
+          <a href="register.html" class="block text-gray-600 font-semibold border px-4 sm:px-8 md:px-12 py-3 bg-blue-200 transition duration-500 hover:bg-blue-300">change Password</a>
+          <a href="register.html" class="block text-white font-semibold border px-4 sm:px-8 md:px-12 py-3 bg-red-500 transition duration-500 hover:bg-red-600">Log Out</a>
+    
+        </div>
+      
+      </div>
+
+
+
+
+      <section class= "bg-gradient-to-b from-blue-100 via-blue-200 to-blue-50  w-full pt-14 pb-10 px-4 sm:px-12 md:px-16 lg:px-20 xl:px-36 z-0 rounded-br-full space-y-5">
+
+
+        <section class="">
+          
+        </section>
+    
+        <section class="bg-white max-w-xl mx-auto rounded-lg shadow-2xl space-y-6 ">
+    
+          <!-- <div class="flex justify-between items-center px-5 ">
+            <div class="text-blue-500 font-black">
+              LetsDo
+            </div>
+    
+            <div class="">
+              <button class="py-1 px-4 rounded-full bg-blue-500 text-white mt-6 hover:bg-blue-600">
+                <a href="login.html" class="block">Login</a>
+              </button>
+            </div>
+    
+          </div>
+    
+    
+          <div> -->
+    
+            
+    
+            <form action="profile.html" method="post" class="py-20 px-5 md:px-10  flex-col justify-center items-center z-10 relative">
+
+
+                <h1 class="text-gray-500 text-xl mb-10 sm:text-4xl mb-2 font-serif z-10 font-semibold text-center">Create a Todo Today</h1>
+              
+    
+                <input type="text" placeholder="ToDo Name" name="ToDoName" id="" required class="w-full py-3 px-4 bg-white border-2 border-gray-200 outline-none rounded-lg">
+        
+                <input type="date" placeholder="ToDo Date" name="TodoDate" id="" required class="w-full py-3 px-4 bg-white border-2 border-gray-200 outline-none mt-8 rounded-lg">
+        
+                <input type="time" placeholder="Todo Time No" name="TodoTime" id="" required class="w-full py-3 px-4 bg-white border-2 border-gray-200 outline-none mt-8 rounded-lg">
+        
+                
+                <button class="w-32 py-3 px-4 mt-12 sm:mx-auto block bg-blue-600 hover:bg-blue-700 shadow-xl rounded-lg text-gray-200 font-bold">
+                    <a href="">Create</a>
+                </button>
+    
+              <a href="viewTodo.html" class="text-xs sm:text-sm text-blue-600 absolute bottom-20 right-6 block mt-6">forgot password</a>
+    
+            </form>
+            
+    
+          </div>
+          
+        </section>
+    
+      </section>
+
+
+
+</body>
+</html>

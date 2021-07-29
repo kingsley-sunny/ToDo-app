@@ -7,7 +7,86 @@
       <title>Document</title>
       <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="bg-gray-100">
+    
       
-</body>
+  <section class="w-full bg-gradient-to-b from-blue-400 to-blue-900 py-5 px-4 sm:px-8 md:px-12 lg:px-20 xl:px-36">
+
+      <nav class="max-w-maxa mx-auto">
+  
+        <div class="flex justify-between items-center text-white">
+          <div>
+            LetsDo
+          </div>
+  
+          <!-- MENU FOR ONLY SM SCREENS -->
+          <div class="hidden sm:hiddenex justify-between items-center lg:hidden">
+            <a href="login.html" class="block  px-4 py-1 mr-3 text-base text-white transition duration-500 rounded-full bg-indigo-800 hover:bg-gray-900">Log in</a>
+            <a href="register.html" class="block  px-4 py-1 text-base text-white transition duration-500 rounded-full bg-green-800 hover:bg-green-900">Sign up</a>
+      
+          </div>
+          
+          <!-- THIS IS THE MENU BURGER FOR SMALL DEVICES ONLY -->
+          <div class="lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" viewBox="0 0 20 20" fill="currentColor " id="insideBurger">
+              <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
+            </svg>
+  
+          </div>
+  
+  
+          <!-- TTHE MENU ITEMS FOR LARGE SCREENS -->
+          <div class="hidden lg:flex justify-end items-center space-x-4">
+            <a href="CreateTodo.html" class="block  px-4 text-base text-white transition duration-500 hover:text-gray-800">Create Todo</a>
+            <a href="login.html" class="block  px-4 text-base text-white transition duration-500 hover:text-gray-800">View Todo</a>
+            <a href="login.html" class="block  px-4 text-base text-white transition duration-500 hover:text-gray-800">Dashboard</a>
+            <a href="login.html" class="block  px-4 py-1 text-base text-white transition duration-500 rounded-full bg-indigo-800 hover:bg-gray-900">change Password</a>
+            <a href="inside.html" class="block  px-4 py-1 text-base text-white transition duration-500 rounded-full bg-red-800 hover:bg-red-900">Log Out</a>
+      
+          </div>
+  
+  
+  
+  
+  
+  
+        </div>
+  
+        
+  
+        <div>
+  
+        </div>
+  
+      </nav>
+  
+    </section>
+  
+  
+    <!-- THE MENU ITEM FOR SMALL SCREENS -->
+  
+    <div class="lg:hidden">
+  
+      <div class="hidden" id="insideMenu">
+        <a href="" class="block text-gray-600 font-semibold border px-4 sm:px-8 md:px-12 py-3 bg-blue-200 transition duration-500 hover:bg-blue-300">CreateTodo</a>
+        <a href="login.html" class="block text-gray-600 font-semibold border px-4 sm:px-8 md:px-12 py-3 bg-blue-200 transition duration-500 hover:bg-blue-300">Vieiw Todo</a>
+        <a href="login.html" class="block text-gray-600 font-semibold border px-4 sm:px-8 md:px-12 py-3 bg-blue-200 transition duration-500 hover:bg-blue-300">Dashboard</a>
+        <a href="register.html" class="block text-gray-600 font-semibold border px-4 sm:px-8 md:px-12 py-3 bg-blue-200 transition duration-500 hover:bg-blue-300">change Password</a>
+        <a href="register.html" class="block text-white font-semibold border px-4 sm:px-8 md:px-12 py-3 bg-red-500 transition duration-500 hover:bg-red-600">Log Out</a>
+  
+      </div>
+    
+    </div>
+
+        
+    <!-- THIS IS THE WHRERE YOU WILL LOOP THE TODO  -->
+
+    <div>
+      <div>You Have No To DO List</div>
+    </div>
+  
+  
+    <script src="inside.js"></script>
+    
+  </body>
 </html>

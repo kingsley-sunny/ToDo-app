@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100">
+    
+    <section class="w-full bg-gradient-to-b from-blue-400 to-blue-900 py-5 px-4 sm:px-8 md:px-12 lg:px-20 xl:px-36">
+
+        <nav class="max-w-maxa mx-auto">
+    
+          <div class="flex justify-between items-center text-white">
+            <div>
+              LetsDo
+            </div>
+    
+            <!-- MENU FOR ONLY SM SCREENS -->
+            <div class="hidden sm:hiddenex justify-between items-center lg:hidden">
+              <a href="login.html" class="block  px-4 py-1 mr-3 text-base text-white transition duration-500 rounded-full bg-indigo-800 hover:bg-gray-900">Log in</a>
+              <a href="register.html" class="block  px-4 py-1 text-base text-white transition duration-500 rounded-full bg-green-800 hover:bg-green-900">Sign up</a>
+        
+            </div>
+            
+            <!-- THIS IS THE MENU BURGER FOR SMALL DEVICES ONLY -->
+            <div class="lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" viewBox="0 0 20 20" fill="currentColor " id="insideBurger">
+                <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
+              </svg>
+    
+            </div>
+    
+    
+            <!-- TTHE MENU ITEMS FOR LARGE SCREENS -->
+            <div class="hidden lg:flex justify-end items-center space-x-4">
+              <a href="CreateTodo.html" class="block  px-4 text-base text-white transition duration-500 hover:text-gray-800">Create Todo</a>
+              <a href="viewTodo.html" class="block  px-4 text-base text-white transition duration-500 hover:text-gray-800">View Todo</a>
+              <a href="dashBoard.html" class="block  px-4 text-base text-white transition duration-500 hover:text-gray-800">Dashboard</a>
+              <a href="ChangePassword.html" class="block  px-4 py-1 text-base text-white transition duration-500 rounded-full bg-indigo-800 hover:bg-gray-900">change Password</a>
+              <a href="index.html" class="block  px-4 py-1 text-base text-white transition duration-500 rounded-full bg-red-800 hover:bg-red-900">Log Out</a>
+        
+            </div>
+    
+    
+    
+    
+    
+    
+          </div>
+    
+          
+    
+          <div>
+    
+          </div>
+    
+        </nav>
+    
+      </section>
+    
+    
+      <!-- THE MENU ITEM FOR SMALL SCREENS -->
+    
+      <div class="lg:hidden">
+    
+        <div class="hidden" id="insideMenu">
+          <a href="CreateTodo.html" class="block text-gray-600 font-semibold border px-4 sm:px-8 md:px-12 py-3 bg-blue-200 transition duration-500 hover:bg-blue-300">CreateTodo</a>
+          <a href="viewTodo.html" class="block text-gray-600 font-semibold border px-4 sm:px-8 md:px-12 py-3 bg-blue-200 transition duration-500 hover:bg-blue-300">Vieiw Todo</a>
+          <a href="dashBoard.html" class="block text-gray-600 font-semibold border px-4 sm:px-8 md:px-12 py-3 bg-blue-200 transition duration-500 hover:bg-blue-300">Dashboard</a>
+          <a href="ChangePassword.html" class="block text-gray-600 font-semibold border px-4 sm:px-8 md:px-12 py-3 bg-blue-200 transition duration-500 hover:bg-blue-300">change Password</a>
+          <a href="index.html" class="block text-white font-semibold border px-4 sm:px-8 md:px-12 py-3 bg-red-500 transition duration-500 hover:bg-red-600">Log Out</a>
+    
+        </div>
+      
+      </div>
+
+
+
+
+      <section class="py-5 px-4 sm:px-8 md:px-12 lg:px-20 xl:px-36">
+        <section class="hidden max-w-maxa mx-auto md:flex flex-col space-y-3 justify-center items-center">
+
+            <table class="shadow-xl max-w-maxa">
+
+                <h1 class="text-3xl font-bold font-serif text-gray-800">Veiw All Your Todo </h1>
+
+                <thead>
+                    <tr>
+                        <th class="capitalize text-white border-2 px-8 py-3 bg-gray-800">todo name</th>
+                        <th class="capitalize text-white border-2 px-8 py-3 bg-gray-800">todo date</th>
+                        <th class="capitalize text-white border-2 px-8 py-3 bg-gray-800">todo time</th>
+                        <th class="capitalize text-white border-2 px-8 py-3 bg-gray-800">todo action</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td class="capitalize text-gray-800 border-2 px-8 py-3 bg-white">php</td>
+                        <td class="capitalize text-gray-800 border-2 px-8 py-3 bg-white">22/07/2021</td>
+                        <td class="capitalize text-gray-800 border-2 px-8 py-3 bg-white">12:00pm</td>
+                        <td class="capitalize text-blue-600 border-2 px-8 py-3 bg-white flex justify-between space-x-3 underline"><a href="">Edit</a><a href="">Delete</a></td>
+                    </tr>
+                </tbody>
+
+                <thead>
+                    <tr>
+                        <td class="capitalize text-gray-800 border-2 px-8 py-3 bg-white">php</td>
+                        <td class="capitalize text-gray-800 border-2 px-8 py-3 bg-white">22/07/2021</td>
+                        <td class="capitalize text-gray-800 border-2 px-8 py-3 bg-white">12:00pm</td>
+                        <td class="capitalize text-blue-600 border-2 px-8 py-3 bg-white flex justify-between space-x-3 underline"><a href="">Edit</a><a href="">Delete</a></td>
+                    </tr>
+                </thead>
+
+
+            </table>
+
+
+            </section>
+
+        </section>
+
+
+        <section class="py-5 px-4 sm:px-8 md:px-12 lg:px-20 xl:px-36">
+
+            <section class="max-w-maxa mx-auto md:hidden flex-col space-y-4 justify-center items-center">
+
+                <h1 class="text-3xl font-bold font-serif text-gray-800 text-center">Veiw All Your Todo </h1>
+
+
+                <div class="py-4 px-4 max-w-lg mx-auto bg-white rounded-xl shadow-lg">
+
+                    <h1 class="text-gray-600 font-bold text-2xl mb-2 ">php</h1>
+                    <span class="text-sm text-gray-600 inline-block mr-2">22/07/2021</span><span class="text-sm text-gray-600 inline-block uppercase">12:00pm</span>
+
+                    <div class="mt-5">
+                        <a href="" class="capitalize text-blue-500 underline inline-block mr-4 ">Edit</a><a href="" class="capitalize text-red-500 underline inline-block">delete</a>
+                    </div>
+                </div>
+
+                <div class="py-4 px-4 max-w-lg mx-auto bg-white rounded-xl shadow-lg">
+
+                    <h1 class="text-gray-600 font-bold text-2xl mb-2 ">php</h1>
+                    <span class="text-sm text-gray-600 inline-block mr-2">22/07/2021</span><span class="text-sm text-gray-600 inline-block uppercase">12:00pm</span>
+
+                    <div class="mt-5">
+                        <a href="" class="capitalize text-blue-500 underline inline-block mr-4 ">Edit</a><a href="" class="capitalize text-red-500 underline inline-block">delete</a>
+                    </div>
+                </div>
+
+            </section>
+
+        </section>
+
+
+        <section class="py-5 px-4 sm:px-8 md:px-12 lg:px-20 xl:px-36">
+
+            <section class="max-w-maxa mx-auto md:flex flex-col space-y-3 justify-center items-center">
+
+                
+
+            </section>
+
+        </section>
+
+
+      <script src="inside.js"></script>
+
+</body>
+</html>
